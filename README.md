@@ -8,7 +8,7 @@ Azure Load Test Results Consolidator Agent
 Azure Load Test Results Consolidator Agent
 Upload multiple Azure Load Testing result ZIP files to filter out ramp-up periods and generate a JMeter-style Aggregate Report.
 
-Step 1 --create a app.py in vscode
+**Step 1 --create a app.py in vscode**
 
 import streamlit as st
 import pandas as pd
@@ -206,4 +206,4 @@ final_report_df = process_load_test_data(uploaded_zips, ramp_up_seconds)
 else:
 st.info("Please upload one or multiple Azure Load Test zip outputs to begin.")
 
-Step 2 --run this command -- python -m streamlit run app.py
+**Step 2 --run this command -- python -m streamlit run app.py**
